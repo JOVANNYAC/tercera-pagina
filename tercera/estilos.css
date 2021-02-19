@@ -1,0 +1,268 @@
+body {
+    padding-top: 150px;
+    background-color: rgb(190, 229, 229);
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 1em;    
+}
+
+
+
+
+
+ .imagenheader {
+     grid-column: 1/2;
+     position: fixed;
+     top: 1%;
+ }
+
+nav ul li {
+    display: inline-block; 
+    background-color: rgb(190, 229, 229);    
+}
+
+@media(max-width: 900px) {
+    nav ul li, h1 { display: table-row;}
+    .imagenp {display: none;
+
+    }
+    
+}
+
+
+
+
+li a {
+    
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    grid-column: 3/9;
+    position: fixed ;
+    left: 27%;
+    top: 1%;
+
+    
+}
+
+.div-inicio {
+    grid-column: 1/-1;
+    justify-self: center;
+    padding-top: 100px;
+
+}
+
+
+
+.boton-empezar {
+    width: 180px;
+    height: 40px;
+    background: orange;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: none;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.input {
+    width: 400px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: none;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 3px;
+    border-style: groove;
+
+
+
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nosotros {
+    grid-column: 3/8;  
+}
+
+#nosotros {
+    margin-bottom: 0cm;
+}
+
+#tdescripciones {
+    margin-bottom: 0cm;
+}
+
+.icono1 {
+    grid-column: 2/3;
+    
+}
+
+.descripcion1 {
+    grid-column: 3/8 ;
+    
+}
+
+.icono2 {
+    grid-column: 2/3;
+    
+}
+
+.descripcion2 {
+    grid-column: 3/8;
+}
+
+.icono3 {
+    grid-column: 2/3;
+    
+}
+
+.descripcion3 {
+    grid-column: 3/8;
+}
+
+.icono4 {
+    grid-column: 2/3;
+    
+}
+
+.descripcion4 {
+    grid-column: 3/8;
+}
+
+.video {
+    grid-column: 1/-1;
+    justify-self: center;
+    
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.seleccionar {
+    width: 180px;
+    height: 40px;
+    background: orange;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: none;
+    border-radius: 10px;
+    padding-top: 5px;
+   
+}
+
+.fijo {
+    
+    grid-column: 3/4 ;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid red;
+    
+    
+
+}
+
+.inclinable {
+   
+    grid-column: 4/5;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid red;
+    
+    
+}
+
+.articulado {
+    
+    grid-column: 5/6;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid red;
+    
+    
+    
+}
+
+
+@media(max-width: 1100px)
+
+{
+    .articulado { grid-column: 3/8;}
+    .inclinable { grid-column: 3/8;}
+    .fijo { grid-column: 3/8;}
+    
+}
+    
+
+
+.footer {
+    grid-column: 1/10;
+    text-align: center;
+    background: rosybrown;
+    padding-top: 8px;     
+}
+
+.button-footer {
+    width: 150px;
+    height: 40px;
+    background: orange;
+    border-bottom: none;
+    border-radius: 9px;
+   
+    
+}
+
+.link-footer {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+
+.imagen {
+    width: 150px;
+    height: auto;
+}
+
+
+
+.imagenp {
+    width: 200px;
+    height: auto;
+}
+
+
+
+
